@@ -1,0 +1,215 @@
+body {
+    background: #591362;
+	color: #000000;
+	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+	font-size:9pt;
+    line-height: 1.75em;
+	margin: 0;
+}
+
+.container {
+	min-height: 500px;
+	background: #ffffff;
+	border: 2px solid #aaaaaa;
+}
+
+.header{
+	background: #ffffff url('../img/logo.jpg') no-repeat left;
+	color: #fff;
+    height: 50px;
+}
+
+.footer {
+	background: #ffffff url('../img/MarketCommtag.jpg') no-repeat right;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+a, a:visited {
+    color: #591362;
+    font-size: 1.1em;
+}
+
+a:hover {
+	color: #d0ae5c;
+    font-size: 1.1em;
+}
+
+.content {
+	color: #333;
+	background: #ffffff;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	text-align: justify;
+	color: #333;
+}
+
+h2 {
+    color: #591362;
+    font-size: 1.2em;
+}
+
+.title {
+	margin: 25px 0;
+	border: none;
+}
+
+.nav {
+	margin-top: 25px;
+    color: #8f8d8d;
+    font-family: Arial, Geneva, Tahoma, sans-serif;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.nav ul {
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.nav ul li {
+	display: inline;
+  	padding-right: 37px;
+  	padding-left: 37px;
+  	background: url('../img/slash.png') no-repeat right center;
+}
+
+.nav ul li:first-child {
+  	display:inline;
+  	padding-left: 0px;
+  	padding-right: 37px;
+  	background: url('../img/slash.png') no-repeat right center;
+}
+
+.nav ul li:last-child {
+  	display:inline;
+  	padding-left: 37px;
+  	padding-right: 0px;
+  	background: none;
+}
+
+.nav a { 
+    color: #8f8d8d; 
+    text-decoration: none;
+    font-weight: 300;
+}
+.nav a:hover, a#current { color: #d0ae5c; }
+
+.home {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.portfolio {
+	margin-bottom: 100px;
+}
+
+.portfolio .title {
+	margin-bottom: 75px;
+}
+
+.ourwork p { 
+  text-align: center; 
+  font-size: 1.1em;
+  line-height: 1.13m;
+}
+.ourwork a {
+	text-decoration: none;
+	color: #333;
+}
+
+.ourwork a:hover {
+	color: #d0ae5c;
+}
+
+.whitepaper p { 
+  text-align: center; 
+  font-size: 1.1em;
+  line-height: 1.13m;
+}
+.whitepaper a {
+	text-decoration: none;
+	color: #333;
+}
+
+.whitepaper a:hover {
+	color: #d0ae5c;
+}
+
+.contactus {
+	margin-top: 10px;
+	margin-bottom: 150px;
+}
+
+.services {
+	margin-top: 10px;
+    float: left;
+    color: #f0be5f;
+}
+
+.listtext {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.box-middle {
+	background: #591362;
+	color: #ffffff;
+	text-transform: uppercase;
+	display: table-cell;
+	margin: 0 0;
+  	width: 165px;
+	height: 203px;
+  	vertical-align: middle;
+}
+
+.box-middle p {
+	text-align: center;
+  	font-size: 1em;
+  	font-style: italic;
+  	padding: 10px;
+	color: #ffffff;
+}
+
+.box-bottom {
+	background: #591362;
+	color: #ffffff;
+	text-transform: uppercase;
+	display: table-cell;
+	margin: 0 0;
+  	width: 165px;
+	height: 203px;
+  	vertical-align: bottom;
+}
+
+.box-bottom p {
+	text-align: center;
+	color: #ffffff;
+}
+
+.box-block {
+	background: #591362;
+	border: 1px solid black;
+	color: #ffffff;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
+  	width: 165px;
+	height: 203px;
+}
+
+img.centered {
+	display: block;
+	margin: 0 auto;
+}
+
+.horizontal-divide {
+	height: 20px;
+}
+
+
